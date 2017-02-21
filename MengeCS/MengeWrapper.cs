@@ -38,5 +38,21 @@ namespace MengeCS
 
         [DllImport("MengeCore")]
         public static extern float GetAgentRadius(uint i);
+
+        [DllImport("MengeCore")]
+        public static extern uint ObstacleCount();
+
+        [DllImport("MengeCore")]
+        public static extern uint GetNextObstacle(uint i);
+
+        [DllImport("MengeCore")]
+        public static extern bool GetObstacleEndPoints(uint i, ref float x0, ref float y0,
+            ref float z0, ref float x1, ref float y1, ref float z1);
+
+        [DllImport("MengeCore")]
+        public static extern bool GetObstacleP0(uint i, ref float x0, ref float y0, ref float z0);
+
+        [DllImport("MengeCore")]
+        public static extern bool GetObstacleP1(uint i, ref float x1, ref float y1, ref float z1);
     }
 }

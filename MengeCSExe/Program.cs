@@ -19,6 +19,7 @@ namespace MengeCSExe
             if (sim.Initialize(behaveXml, sceneXml, "orca"))
             {
                 System.Console.WriteLine("New simulator created.");
+                System.Console.WriteLine("\t{0} Obstacles", sim.GetObstacleCount());
                 System.Console.WriteLine("\t{0} agents", sim.AgentCount);
                 for (int i = 0; i < 20; ++i)
                 {

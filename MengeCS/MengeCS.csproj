@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Agent.cs" />
     <Compile Include="MengeWrapper.cs" />
+    <Compile Include="Obstacle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Simulator.cs" />
     <Compile Include="Vector2.cs" />
