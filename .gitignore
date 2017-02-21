@@ -1,5 +1,6 @@
 ### Local, custom gitignore logic
 MengeCore.dll
+build/lib/
 
 ### gitignore logic provided by github
 ## Ignore Visual Studio temporary files, build results, and
